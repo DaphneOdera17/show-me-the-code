@@ -5,7 +5,7 @@ def add_num(img):
     myfont = ImageFont.truetype('C:/Windows/fonts/Arial.ttf', size=100)
     fillcolor = "#ff0000"
     width, height = img.size
-    draw.text((width-120, 0), '99', font=myfont, fill=fillcolor)
+    draw.text((width-120, 0), '17', font=myfont, fill=fillcolor)
     img.save('result.jpg', 'jpeg')
 
     return 0
